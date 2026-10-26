@@ -1,0 +1,19 @@
+# Dataset and generated features (download HF_Lung_V1 separately)
+HF_Lung_V1-master/
+data/
+processed/
+*.wav
+*_label.txt
+*.npz
+
+# Model checkpoints
+models/
+*.pth
+*.pt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store
